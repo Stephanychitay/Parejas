@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+<header class="header">
+<nav class="nav">
+    <img src="C:\Users\user\Documents\empresa\log-emp.png" width="80" height="80"> 
+<button class="toggle"><i class="fa fa-home"></i></button>
+    <link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/18b27d7909.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+</head>
+<body background="C:\Users\user\Documents\empresa\fondo.jpg">
+    <font face="Century Gothic">
+    <header class="header">
+    <nav class="nav">
+        <a href = "#" class = "logo navml"><img class="logo" src="logo.jpg"></a>
+        <button class = "toggle"><a href = "nav-menu.html"><i class="fa-solid fa-bars"></i></i></button>
+        <ul class = "nav-menu">
+            <li class="nmi"><a href="indice.html" class="nml navml">Principal<i class="fa fa-home"></i></a></li>
+            <li class="nmi"><a href="ayuda.html" class="nml navml">Ayuda y Atencion C.<i class="fa fa-users"></i></a></li>
+            <li class="nmi"><a href="cuentab.html" class="nml navml">Cuenta Bancaria<i class="fa-solid fa-file-invoice"></i></a></li>
+            <li class="nmi"><a href="" class="nml navml nav-menu-linka"><i class=""></i></a></li>  
+           </nav>
+</header>
+<section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>Realizar una Transferencia o Pago</h2>
+    <form action="procesar_transferencia.php" method="post">
+        <label for="destinatario">Destinatario:</label><br>
+        <input type="text" name="destinatario" id="destinatario" required><br>
+        <label for="cantidad">Cantidad:</label><br>
+        <input type="number" name="cantidad" id="cantidad" step="0.01" required><br>
+        <label for="concepto">Concepto:</label><br>
+        <input type="text" name="concepto" id="concepto"><br>
+        <input type="submit" value="Realizar Transferencia o Pago">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Banco XYZ. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

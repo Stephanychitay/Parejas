@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indice</title>
+    <link rel="stylesheet" href="style.css">
+<header class="header">
+<nav class="nav">
+    <img src="C:\Users\user\Documents\empresa\log-emp.png" width="80" height="80"> 
+<button class="toggle"><i class="fa fa-home"></i></button>
+    <link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/18b27d7909.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+</head>
+<body background="C:\Users\user\Documents\empresa\fondo.jpg">
+    <font face="Century Gothic">
+    <header class="header">
+    <nav class="nav">
+        <a href = "#" class = "logo navml"><img class="logo" src="logo.jpg"></a>
+        <button class = "toggle"><a href = "nav-menu.html"><i class="fa-solid fa-bars"></i></i></button>
+        <ul class = "nav-menu">
+            <li class="nmi"><a href="indice.html" class="nml navml">Principal<i class="fa fa-home"></i></a></li>
+            <li class="nmi"><a href="ayuda.html" class="nml navml">Ayuda y Atencion C.<i class="fa fa-users"></i></a></li>
+            <li class="nmi"><a href="tran.html" class="nml navml">Transferencia y Pago<i class="fa-solid fa-sack-dollar"></i></a></li>
+            <li class="nmi"><a href="" class="nml navml nav-menu-linka"><i class=""></i></a></li>  
+           </nav>
+</header>
+    </font>
+<section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>Realizar una Transacción</h2>
+    <form action="procesar_transaccion.php" method="post">
+        <label for="tipo">Tipo de Transacción:</label><br>
+        <select name="tipo" id="tipo">
+            <option value="deposito">Depósito</option>
+            <option value="retiro">Retiro</option>
+        </select><br>
+        <label for="monto">Monto:</label><br>
+        <input type="number" name="monto" id="monto" step="0.01" required><br>
+        <input type="submit" value="Realizar Transacción">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Banco XYZ. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>
